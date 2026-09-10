@@ -47,14 +47,18 @@
   .step h3{margin:0 0 6px;font-size:18px}
   .step p{margin:0;color:var(--muted);font-size:15px}
 
-  .split{display:grid;gap:36px;grid-template-columns:1fr;align-items:center}
+  .split{display:grid;gap:36px;grid-template-columns:1fr;align-items:start}
   @media(min-width:760px){.split{grid-template-columns:1.1fr .9fr}}
-  .shot{display:block;width:100%;max-width:340px;margin:0 auto;border-radius:28px;box-shadow:0 30px 70px rgba(11,31,77,.22);border:1px solid var(--line)}
+  .shot{display:block;width:100%;max-width:300px;margin:0 auto;border-radius:28px;box-shadow:0 30px 70px rgba(11,31,77,.22);border:1px solid var(--line)}
   ul.why{list-style:none;padding:0;margin:0}
   ul.why li{padding:12px 0 12px 34px;position:relative;border-bottom:1px solid var(--line);font-size:16px}
   ul.why li:last-child{border:0}
   ul.why li::before{content:"";position:absolute;left:0;top:16px;width:20px;height:20px;border-radius:50%;background:var(--blue);box-shadow:inset 0 0 0 5px #fff,0 0 0 1px var(--blue)}
 
+  .mini{margin-top:26px;background:var(--navy);color:#fff;border-radius:18px;padding:20px 22px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+  .mini .t{font-weight:700;font-size:16px}
+  .mini .t small{display:block;font-weight:500;opacity:.75;font-size:13px;margin-top:2px}
+  .mini a{background:#fff;color:var(--navy);text-decoration:none;font-weight:800;padding:12px 16px;border-radius:12px;white-space:nowrap}
   .band{background:var(--navy);color:#fff;text-align:center;padding:60px 0}
   .band h2{color:#fff}
   .band .sub{color:rgba(255,255,255,.8)}
@@ -101,6 +105,10 @@
         <li>Tells you if a meter stops selling time so you're never guessing.</li>
         <li>Stops the moment you say DONE. Nothing is charged after that.</li>
       </ul>
+      <div class="mini">
+        <div class="t">Parked right now?<small>Text PARK and send a photo of the meter.</small></div>
+        <a href="sms:+18335496051?&amp;body=PARK">Text (833) 549-6051</a>
+      </div>
     </div>
     <img class="shot" src="opt-in-example.png" alt="Example text conversation with the LA Parking Meter Agent: the user texts PARK, sends a meter photo and '2 hours', and gets payment confirmations and a check-in before their leave time.">
   </div>
