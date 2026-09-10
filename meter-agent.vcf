@@ -4,7 +4,7 @@ N:;LA Parking Meter Agent;;;
 FN:LA Parking Meter Agent
 ORG:FLAIR
 TEL;TYPE=CELL,VOICE,pref:+18335496051
-URL:https://samjfreeman03-hub.github.io/meter-agent-site/
+URL:https://parkingmeteragent.com/
 NOTE:Text a photo of your parking meter and how long you're staying. Reply DONE when you leave.
 PHOTO;ENCODING=b;TYPE=PNG:iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAQAElEQVR4nOydB6AcVbnHv292
  b0kl9EAC6YWAWMITggiBhBJQn4p5oogUpfksqFRFvRAQsCKKQNAQOwgW3nsKRMBQJAFFIUgI
